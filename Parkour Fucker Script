@@ -2,10 +2,10 @@ task.wait(3)
 if game.PlaceId == 445664957 and not _G.Loaded then -- Only run script if playing Parkour
 
     _G.Loaded = true
-    print("Welcome to Parkour Fucker, This script was made by poker#1234")
+    print("Welcome to Parkour Fucker.")
 
     -- Declare static variables
-    local Version = "1.61"
+    local Version = "1.5"
 
     local Workspace         = game:GetService("Workspace")
     local Players           = game:GetService("Players")
@@ -377,7 +377,7 @@ if game.PlaceId == 445664957 and not _G.Loaded then -- Only run script if playin
     local function Show_Beta_Tab()
         if Beta_Tab_Active then
             Beta_Tab_Open = true
-            warn("fuck hudzell - Beta tab enabled")
+            warn("Parkour Fucker - Beta tab enabled")
             local Beta_Tab = MainUI:CreateTab("Beta Features")
 
             --Bulk Trading section
@@ -418,6 +418,6 @@ if game.PlaceId == 445664957 and not _G.Loaded then -- Only run script if playin
         end
     end)
 
-    Notify("Welcome to fuck hudzell. Press " ..UserInputService:GetStringForKeyCode(Config.Keybind).. " to toggle the gui.", true)
-    Notify("fuck hudzell will be updated soon if stuff gets patched.", false)
+    Notify("Welcome to Parkour Fucker. Press " ..UserInputService:GetStringForKeyCode(Config.Keybind).. " to toggle the gui.", true)
+    Notify("Parkour Fucker will be updated if it gets patched, it might be a delay since I don't play roblox 24/7", false)
 end
